@@ -2,12 +2,14 @@
 
 namespace Tests\Unit;
 
+use App\Models\Employee;
+use Illuminate\Support\Facades\Artisan;
 use PHPUnit\Framework\TestCase;
 
-class ExampleTest extends TestCase
+class EmployeeTest extends TestCase
 {
     /**
-     * A basic test example.
+     * A basic unit test example.
      *
      * @return void
      */
